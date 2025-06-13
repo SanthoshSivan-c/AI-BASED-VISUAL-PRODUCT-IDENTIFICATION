@@ -5,8 +5,8 @@ import serial
 ser = serial.Serial("COM11", 9600)
 #OBJECT CLASSIFICATION PROGRAM FOR VIDEO IN IP ADDRESS
 
-url = 'http://192.168.92.65/cam-hi.jpg'
-#url = 'http://192.168.0.159/'
+url = 'ip'
+#url = 'ip'
 winName = 'ESP32 CAMERA'
 cv2.namedWindow(winName,cv2.WINDOW_AUTOSIZE)
 #scale_percent = 80 # percent of original size    #for image processing
